@@ -22,7 +22,8 @@ class TasksController < ApplicationController
   # POST /tasks or /tasks.json
   def create
     @task = Task.new(task_params)
-
+    # Devise logged in user
+    @task.owner = current_user
     respond_to do |format|
       if @task.save
         format.html { redirect_to task_url(@task), notice: "Task was successfully created." }
