@@ -33,6 +33,8 @@ es:
   editing_task: Editando Tarea
   hello: Hola Mundo
   tasks:
+    errors:
+      invalid_due_date: La fecha debe estar en el futuro
     form:
       category: Categoría
       description: Descripción

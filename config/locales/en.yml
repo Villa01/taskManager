@@ -33,6 +33,8 @@ en:
   editing_task: Editing task
   hello: Hello world
   tasks:
+    errors:
+      invalid_due_date: Invalid due date
     form:
       category: Category
       description: Description
