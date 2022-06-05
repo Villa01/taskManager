@@ -32,6 +32,7 @@ en:
   editing_category: Editing category
   editing_task: Editing task
   hello: Hello world
+  sign_out: Sign out
   tasks:
     errors:
       invalid_due_date: Invalid due date

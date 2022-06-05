@@ -32,6 +32,7 @@ es:
   editing_category: Editando Categoría
   editing_task: Editando Tarea
   hello: Hola Mundo
+  sign_out: Cerrar Sesión
   tasks:
     errors:
       invalid_due_date: La fecha debe estar en el futuro
