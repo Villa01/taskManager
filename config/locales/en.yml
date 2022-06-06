@@ -37,6 +37,7 @@ en:
     errors:
       invalid_due_date: Invalid due date
     form:
+      add-participant: Add-participant
       category: Category
       description: Description
       due_date: Due date

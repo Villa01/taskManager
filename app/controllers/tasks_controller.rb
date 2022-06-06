@@ -13,6 +13,7 @@ class TasksController < ApplicationController
   # GET /tasks/new
   def new
     @task = Task.new
+    @task.participating_users.build
   end
 
   # GET /tasks/1/edit
@@ -66,6 +67,17 @@ class TasksController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def task_params
-      params.require(:task).permit(:name, :description, :due_date, :category_id)
+      params.require(:task).permit(
+        :name,
+        :description,
+        :due_date,
+        :category_id,
+        participating_users_attributes: [
+          :user_id,
+          :role,
+          :id,
+          :_destroy
+        ]
+      )
     end
 end
