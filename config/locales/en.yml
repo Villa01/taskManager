@@ -1,0 +1,57 @@
+---
+en:
+  activerecord:
+    models:
+      category:
+        one: Category
+        others: Categories
+      task:
+        one: Task
+        others: Tasks
+  categories:
+    form:
+      description: Description
+      name: Name
+    index:
+      title: New Category
+    model:
+      description: Descripción
+      name: Nombre
+    new:
+      "/categories":
+        new_category: New category
+      categories:
+        new_category: New category
+  category: Category
+  common:
+    back: Back
+    destroy: Destroy
+    edit: Edit
+    show: Show
+    sure: Are you sure?
+  editing_category: Editing category
+  editing_task: Editing task
+  hello: Hello world
+  sign_out: Sign out
+  tasks:
+    errors:
+      invalid_due_date: Invalid due date
+    form:
+      add-participant: Add-participant
+      category: Category
+      description: Description
+      due_date: Due date
+      name: Name
+    index:
+      description: Description
+      due_date: Due date
+      name: Name
+      new_task: New task
+      title: Title
+    model:
+      category: Category
+      description: Description
+      due_date: Due date
+      name: Name
+    new:
+      title: New Task

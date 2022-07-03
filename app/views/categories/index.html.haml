@@ -1,0 +1,23 @@
+%h1= t('.title')
+
+%table
+  %thead
+    %tr
+      %th= t('categories.model.name')
+      %th= t('categories.model.description')
+      %th
+      %th
+      %th
+
+  %tbody
+    - @categories.each do |category|
+      %tr
+        %td= category.name
+        %td= category.description
+        %td= link_to t('common.show'), category
+        %td= link_to t('common.edit'), edit_category_path(category)
+        %td= link_to t('common.destroy'), category, :method => :delete, :data => { :confirm => t('common.sure') }
+
+%br
+
+= link_to t('categories.new.categories.new_category'), new_category_path

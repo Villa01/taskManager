@@ -1,0 +1,57 @@
+---
+es:
+  activerecord:
+    models:
+      category:
+        one: Categoría
+        others: Categorías
+      task:
+        one: Tarea
+        others: Tareas
+  categories:
+    form:
+      description: Descripción
+      name: Nombre
+    index:
+      title: Lista de Categorías
+    model:
+      description: Descripción
+      name: Nombre
+    new:
+      "/categories":
+        new_category: Nueva Categoría
+      categories:
+        new_category: Nueva Categoría
+  category: Categoria
+  common:
+    back: Atrás
+    destroy: Borrar
+    edit: Editar
+    show: Mostrar
+    sure: "¿Estás seguro/a?"
+  editing_category: Editando Categoría
+  editing_task: Editando Tarea
+  hello: Hola Mundo
+  sign_out: Cerrar Sesión
+  tasks:
+    errors:
+      invalid_due_date: La fecha debe estar en el futuro
+    form:
+      add-participant: Agregar Participante
+      category: Categoría
+      description: Descripción
+      due_date: Vencimiento
+      name: Nombre
+    index:
+      description: Descripción
+      due_date: Vencimiento
+      name: Nombre
+      new_task: Nueva tarea
+      title: Lista de Tareas
+    model:
+      category: Categoría
+      description: Descripcion
+      due_date: Vencimiento
+      name: Nombre
+    new:
+      title: Nueva Tarea

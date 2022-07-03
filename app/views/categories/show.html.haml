@@ -1,0 +1,12 @@
+%p#notice= notice
+
+%p
+  %b= t('categories.model.name')
+  = @category.name
+%p
+  %b= t('categories.model.description')
+  = @category.description
+
+= link_to t('common.edit'), edit_category_path(@category)
+\|
+= link_to t('common.back'), categories_path
